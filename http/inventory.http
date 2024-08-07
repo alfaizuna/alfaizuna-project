@@ -1,0 +1,12 @@
+### create inventory
+POST http://localhost:8080/inventory
+Content-Type: application/json
+
+{
+  "id": 1,
+  "itemId": 1,
+  "qty": 100
+}
+
+### get inventory
+GET http://localhost:8080/inventory/1
